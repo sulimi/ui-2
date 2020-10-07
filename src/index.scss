@@ -12,5 +12,10 @@ a{
   color: inherit;
   &:hover{
     border-bottom: 1px solid blue;
+    cursor: pointer;
   }
+}
+body{
+  font-size: 16px;
+  font-family: -apple-system;
 }

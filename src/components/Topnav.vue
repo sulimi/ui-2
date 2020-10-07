@@ -1,9 +1,9 @@
 <template>
   <div class="topnav">
-    <div class="logo"></div>
+    <div class="logo">LOGO</div>
     <ul class="menu">
-      <li>菜单</li>
-      <li>菜单</li>
+      <li>菜单1</li>
+      <li>菜单2</li>
     </ul>
   </div>
 </template>
