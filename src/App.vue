@@ -1,15 +1,13 @@
 <template>
   <div>hi</div>
-  <One></One>
+  <router-link to="/">首页</router-link>
+  <router-link to="/xxx">首页</router-link>
+  <router-view></router-view>
 </template>
 
 <script>
-  import One from './components/One.vue';
 
   export default {
     name: 'App',
-    components: {
-      One: One
-    }
   };
 </script>

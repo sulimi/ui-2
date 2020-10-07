@@ -1,9 +1,9 @@
 <template>
-  <div>我的UI官网</div>
+  <div>我的内容</div>
 </template>
 <script>
   export default {
-    name:'One'
+    name:'Two'
   };
 </script>
 <style>
