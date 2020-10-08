@@ -73,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="43853000" />
+      <workItem from="1602109819425" duration="46110000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602183774231</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Dialog点击关闭">
+      <created>1602186647620</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1602186647620</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +290,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第一次提交" />
     <MESSAGE value="初始化路由" />
     <MESSAGE value="封装Topnav" />
     <MESSAGE value="Home的css样式" />
@@ -308,7 +314,8 @@
     <MESSAGE value="按钮多样化：disabled属性" />
     <MESSAGE value="按钮多样化：loading属性" />
     <MESSAGE value="Dialog轮子雏形" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dialog轮子雏形" />
+    <MESSAGE value="Dialog点击关闭" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dialog点击关闭" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">

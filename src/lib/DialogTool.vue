@@ -1,19 +1,20 @@
 <template>
   <template v-if="visible">
-    <div class="sumi-dialog-overlay" @click="onClickOverlay"></div>
-    <div class="sumi-dialog-wrapper">
-      <div class="sumi-dialog">
-        <header>标题<span @click="close" class="sumi-dialog-close"></span></header>
-        <main>
-          <p>第一行字</p>
-          <p>第二行字</p>
-        </main>
-        <footer>
-          <ButtonTool @click="cancel">取消</ButtonTool>
-          <ButtonTool @click="ok">确定</ButtonTool>
-        </footer>
+    <Teleport to="body">
+      <div class="sumi-dialog-overlay" @click="onClickOverlay"></div>
+      <div class="sumi-dialog-wrapper">
+        <div class="sumi-dialog">
+          <header><slot name="title" /> <span @click="close" class="sumi-dialog-close"></span></header>
+          <main>
+            <slot name="content"/>
+          </main>
+          <footer>
+            <ButtonTool @click="cancel">取消</ButtonTool>
+            <ButtonTool @click="ok">确定</ButtonTool>
+          </footer>
+        </div>
       </div>
-    </div>
+    </Teleport>
   </template>
 </template>
 <script lang="ts">
