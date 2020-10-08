@@ -12,6 +12,12 @@
     <ButtonTool size="big" @click="func">我是大按钮</ButtonTool>
     <ButtonTool size="small" @click="func">我是小按钮</ButtonTool>
   </div>
+  <h1>示例3</h1>
+  <div>
+    <ButtonTool @click="func">我是正常按钮</ButtonTool>
+    <ButtonTool level="main" @click="func">我是主按钮</ButtonTool>
+    <ButtonTool level="danger" @click="func">我是危险按钮</ButtonTool>
+  </div>
 </template>
 <script lang="ts">
   import ButtonTool from '../lib/ButtonTool.vue';

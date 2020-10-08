@@ -17,12 +17,16 @@
       size: {
         type: String,
         default: 'normal'
+      },
+      level:{
+        type: String,
+        default: 'normal'
       }
     },
     setup(props, context) {
-      const {theme, size} = props;
+      const {theme, size, level} = props;
       const classes = computed(() => {
-        return `sumi-theme-${theme} sumi-size-${size}`;
+        return `sumi-theme-${theme} sumi-size-${size} sumi-level-${level}`;
       });
       return {classes};
     }
@@ -97,6 +101,22 @@
       font-size: 12px;
       height: 20px;
       padding: 0 4px;
+    }
+
+    &.sumi-level-main {
+      color: $blue;
+
+      &:hover,
+      &:focus {
+        color: darken($blue, 10%);
+      }
+    }
+    &.sumi-level-danger {
+      color: red;
+      &:hover,
+      &:focus {
+        color: darken(red, 10%);
+      }
     }
   }
 

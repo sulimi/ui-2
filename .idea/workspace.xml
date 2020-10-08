@@ -14,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/ButtonTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ButtonTool.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="36449000" />
+      <workItem from="1602109819425" duration="37094000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -223,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602163012296</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="按钮多样化：theme和size属性">
+      <created>1602166945297</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1602166945297</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +268,8 @@
     <MESSAGE value="使用v-model简化switch" />
     <MESSAGE value="创建button" />
     <MESSAGE value="css最小影响原则" />
-    <option name="LAST_COMMIT_MESSAGE" value="css最小影响原则" />
+    <MESSAGE value="按钮多样化：theme和size属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="按钮多样化：theme和size属性" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">
