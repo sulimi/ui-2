@@ -11,17 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/sumi.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/SuMi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/SuMi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/ButtonTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ButtonTool.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/SwitchTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/SwitchTool.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="33360000" />
+      <workItem from="1602109819425" duration="36449000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -223,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602157285270</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="css最小影响原则">
+      <created>1602163012296</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1602163012296</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +261,8 @@
     <MESSAGE value="switch轮子可以接受外部控制切换的值" />
     <MESSAGE value="使用v-model简化switch" />
     <MESSAGE value="创建button" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建button" />
+    <MESSAGE value="css最小影响原则" />
+    <option name="LAST_COMMIT_MESSAGE" value="css最小影响原则" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">
