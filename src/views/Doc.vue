@@ -1,6 +1,6 @@
 <template>
   <Topnav></Topnav>
-  <aside>
+  <aside v-if="asideVisible">
     <h2>组件列表</h2>
     <ol>
       <li>
@@ -23,26 +23,33 @@
 
 <script lang="ts">
   import Topnav from '../components/Topnav.vue';
+  import {inject, Ref} from 'vue';
 
   export default {
-    components: {Topnav}
+    components: {Topnav},
+    setup() {
+      const asideVisible = inject<Ref<boolean>>('toggle');  //get
+      return {asideVisible};
+    }
   };
 
 </script>
 
 <style lang="scss" scoped>
-  aside{
+  aside {
     background: lightblue;
     width: 150px;
     padding: 70px 16px 16px;
     position: fixed;
     top: 0;
     left: 0;
-    h2{
+
+    h2 {
       margin-bottom: 4px;
     }
-    ol{
-      li{
+
+    ol {
+      li {
         padding: 4px 0;
       }
     }
