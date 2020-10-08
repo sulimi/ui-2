@@ -1,6 +1,6 @@
 <template>
   <div>
-    <SwitchTool :value="isToggle" @input="isToggle=$event"/>
+    <SwitchTool v-model:value="isToggle"/>
   </div>
 </template>
 <script>

@@ -71,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="21105000" />
+      <workItem from="1602109819425" duration="22437000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602141362973</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="switch轮子可以接受外部控制切换的值">
+      <created>1602145415153</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602145415153</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +227,8 @@
     <MESSAGE value="switch hover之后切换" />
     <MESSAGE value="switch可以切换了" />
     <MESSAGE value="加上流畅动画" />
-    <option name="LAST_COMMIT_MESSAGE" value="加上流畅动画" />
+    <MESSAGE value="switch轮子可以接受外部控制切换的值" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch轮子可以接受外部控制切换的值" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">

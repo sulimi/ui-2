@@ -7,12 +7,11 @@
 <script lang="ts">
   export default {
     props: {
-      value: Boolean//这是JS的类型不是TS
+      value: Boolean
     },
     setup(props, content) {
       const toggle = () => {
-        //this.$emit()   //Vue 2
-        content.emit('input', !props.value);
+        content.emit('input:value', !props.value);
       };
       return {toggle};
     }
