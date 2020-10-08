@@ -1,19 +1,20 @@
 <template>
-  <button :class="{checked}" @click="toggle">
+  <button :class="{checked:value}" @click="toggle">
     <span></span>
   </button>
 </template>
 
 <script lang="ts">
-  import {ref} from 'vue';
-
   export default {
-    setup() {
-      const checked = ref(false);
+    props: {
+      value: Boolean//这是JS的类型不是TS
+    },
+    setup(props, content) {
       const toggle = () => {
-        checked.value = !checked.value;
+        //this.$emit()   //Vue 2
+        content.emit('input', !props.value);
       };
-      return {checked, toggle};
+      return {toggle};
     }
   };
 </script>
@@ -30,6 +31,7 @@
     border-radius: $h/2;
     position: relative;
   }
+
   /*button:focus{*/
   /*  outline: none;*/
   /*}*/
