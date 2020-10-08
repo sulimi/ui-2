@@ -1,117 +1,12 @@
 <template>
   <div>
-    Switch
-    <br/>
-    Switch
-    <br/>
-    Switch
-    <br/>
-    Switch
-    <br/>
-    Switch
-    <br/>
-    Switch
-    <br/>
-    Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/> Switch
-    <br/>
-
-
+    <SwitchTool/>
   </div>
 </template>
+<script>
+  import SwitchTool from '../lib/SwitchTool.vue';
+
+  export default {
+    components: {SwitchTool}
+  };
+</script>
