@@ -73,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="37094000" />
+      <workItem from="1602109819425" duration="38018000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602166945297</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="按钮多样化：level属性">
+      <created>1602167428618</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602167428618</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +276,8 @@
     <MESSAGE value="创建button" />
     <MESSAGE value="css最小影响原则" />
     <MESSAGE value="按钮多样化：theme和size属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="按钮多样化：theme和size属性" />
+    <MESSAGE value="按钮多样化：level属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="按钮多样化：level属性" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">

@@ -1,6 +1,7 @@
 <template>
   <button class="sumi-button"
           :class="classes"
+          :disabled="disabled"
           v-bind=$attrs>
     <slot/>
   </button>
@@ -21,6 +22,10 @@
       level:{
         type: String,
         default: 'normal'
+      },
+      disabled:{
+        type: Boolean,
+        default: false
       }
     },
     setup(props, context) {
@@ -116,6 +121,13 @@
       &:hover,
       &:focus {
         color: darken(red, 10%);
+      }
+    }
+    &[disabled] {
+      cursor: not-allowed;
+      color: #ccc;
+      &:hover {
+        border-color: #ccc;
       }
     }
   }
