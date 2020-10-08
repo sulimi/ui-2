@@ -24,6 +24,10 @@
     <ButtonTool disabled @click="func">我是禁用按钮</ButtonTool>
     <ButtonTool :disabled="false" @click="func">我是可用按钮</ButtonTool>
   </div>
+  <h1>示例5</h1>
+  <div>
+    <ButtonTool loading @click="func">加载中</ButtonTool>
+  </div>
 </template>
 <script lang="ts">
   import ButtonTool from '../lib/ButtonTool.vue';
