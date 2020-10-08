@@ -5,6 +5,7 @@
       <li>菜单1</li>
       <li>菜单2</li>
     </ul>
+    <span class="toggleAside"></span>
   </div>
 </template>
 
@@ -29,6 +30,8 @@
     padding: 16px;
     position: relative;
     z-index: 10;
+    justify-content: center;
+    align-items: center;
 
     .logo {
       max-width: 6em;
@@ -41,6 +44,14 @@
 
       li {
         margin: 0 1em
+      }
+    }
+    @media (max-width:500px) {
+      .menu{
+        display: none;
+      }
+      .logo{
+        margin: 0 auto;
       }
     }
   }
