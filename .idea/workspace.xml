@@ -11,9 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/DialogTool.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/DialogTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/DialogTool.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="41012000" />
+      <workItem from="1602109819425" duration="43853000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -257,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602175863922</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Dialog轮子雏形">
+      <created>1602183774231</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1602183774231</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +307,8 @@
     <MESSAGE value="按钮多样化：level属性" />
     <MESSAGE value="按钮多样化：disabled属性" />
     <MESSAGE value="按钮多样化：loading属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="按钮多样化：loading属性" />
+    <MESSAGE value="Dialog轮子雏形" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dialog轮子雏形" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">
