@@ -11,9 +11,14 @@
     },
     setup(props, content) {
       const toggle = () => {
-        content.emit('input:value', !props.value);
+        content.emit('update:value', !props.value);
       };
       return {toggle};
+    },
+    methods:{
+      x(){
+        this.$emit()
+      }
     }
   };
 </script>

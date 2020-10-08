@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/SwitchTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/SwitchTool.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="22437000" />
+      <workItem from="1602109819425" duration="24184000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602145415153</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="使用v-model简化switch">
+      <created>1602146721867</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602146721867</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +234,8 @@
     <MESSAGE value="switch可以切换了" />
     <MESSAGE value="加上流畅动画" />
     <MESSAGE value="switch轮子可以接受外部控制切换的值" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch轮子可以接受外部控制切换的值" />
+    <MESSAGE value="使用v-model简化switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用v-model简化switch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">
