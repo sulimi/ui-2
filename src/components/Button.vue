@@ -3,6 +3,8 @@
   <h1>示例1</h1>
   <div>
     <ButtonTool @click="func">我是按钮</ButtonTool>
+    <ButtonTool theme="link" @click="func">我是链接按钮</ButtonTool>
+    <ButtonTool theme="text" @click="func">我是文本按钮</ButtonTool>
   </div>
 </template>
 <script lang="ts">
