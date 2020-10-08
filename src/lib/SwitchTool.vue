@@ -30,6 +30,9 @@
     border-radius: $h/2;
     position: relative;
   }
+  /*button:focus{*/
+  /*  outline: none;*/
+  /*}*/
 
   span {
     position: absolute;
@@ -39,6 +42,7 @@
     width: $h2;
     background: white;
     border-radius: $h/2;
+    transition: left 250ms;
   }
 
   button.checked {
