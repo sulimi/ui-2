@@ -72,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="74246000" />
+      <workItem from="1602109819425" duration="76116000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -319,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602261105256</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="优化代码1">
+      <created>1602261815170</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1602261815170</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +345,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="实现aside切换" />
     <MESSAGE value="让topnav是响应式的" />
     <MESSAGE value="完善PC点aside不切换" />
     <MESSAGE value="完成切换路由隐藏aside" />
@@ -363,7 +369,8 @@
     <MESSAGE value="使用CSS切换内容" />
     <MESSAGE value="导航条宽度和切换" />
     <MESSAGE value="导航条切换动画" />
-    <option name="LAST_COMMIT_MESSAGE" value="导航条切换动画" />
+    <MESSAGE value="优化代码1" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化代码1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">
