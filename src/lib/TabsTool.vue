@@ -8,7 +8,12 @@
       </div>
     </div>
     <div class="sumi-tabs-content">
-      <component :is="selectConten"></component>
+      <component v-for="(tag,index) in defaults" :key="index"
+                 class="sumi-tabs-content-item"
+                 :class="{selected:tag.props.title === selected}"
+                 :is="tag">
+
+      </component>
     </div>
   </div>
 </template>
@@ -29,22 +34,15 @@
           throw new Error('Tabs 子标签必须是 Tab');
         }
       });
-      const selectConten = computed(() => {
-        const vNodeValue = defaults.filter(tag => {
-          return tag.props.title === props.selected;
-        })[0];
-        return vNodeValue;
-      });
 
       const titles = defaults.map(tag => {
         return tag.props.title;
       });
       const select = (title: string) => {
-        console.log(selectConten);
         context.emit('update:selected', title);
       };
 
-      return {defaults, titles, select, selectConten};
+      return {defaults, titles, select};
     }
   };
 </script>
@@ -75,6 +73,12 @@
 
     &-content {
       padding: 8px 0;
+      &-item{
+        display: none;
+        &.selected{
+          display: block;
+        }
+      }
     }
   }
 </style>
