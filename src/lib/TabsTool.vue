@@ -28,21 +28,15 @@
       const selectedDiv = ref<HTMLDivElement>(null);
       const indicator = ref<HTMLDivElement>(null);
       const container = ref<HTMLDivElement>(null);
-      onMounted(() => {
-        watchEffect(() => {
-          console.log(111);
-          const {width} = selectedDiv.value.getBoundingClientRect();
-          indicator.value.style.width = width + 'px';
-          const {left: left1} = container.value.getBoundingClientRect();
-          const {left: left2} = selectedDiv.value.getBoundingClientRect();
-          console.log(selectedDiv);
-          console.log(left2);
-          indicator.value.style.left = left2 - left1 + 'px';
-        });
-      });
-      onUpdated(()=>{
-        console.log(111);
-      })
+      const leftFunc= () => {
+        const {width} = selectedDiv.value.getBoundingClientRect();
+        indicator.value.style.width = width + 'px';
+        const {left: left1} = container.value.getBoundingClientRect();
+        const {left: left2} = selectedDiv.value.getBoundingClientRect();
+        indicator.value.style.left = left2 - left1 + 'px';
+      }
+      onMounted(leftFunc);
+      onUpdated(leftFunc)
       const defaults = context.slots.default();
       defaults.forEach(tag => {
         if (tag.type !== Tab) {
