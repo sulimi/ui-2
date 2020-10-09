@@ -4,7 +4,7 @@
       <div class="sumi-tabs-nav-item"
            :class="{selected: t===selected}"
            @click="select(t)"
-           :ref="el => { if (el) divs[index] = el }"
+           :ref="el => { if (t===selected) selectedDiv = el }"
            v-for="(t,index) in titles" :key="index">{{t}}
       </div>
       <div class="sumi-tabs-nav-indicator" ref="indicator"></div>
@@ -30,16 +30,17 @@
       }
     },
     setup(props, context) {
-      const divs = ref<HTMLDivElement[]>([]);
+      // const divs = ref<HTMLDivElement[]>([]);
+      const selectedDiv = ref<HTMLDivElement>(null);
       const indicator = ref<HTMLDivElement>(null);
       const container = ref<HTMLDivElement>(null);
       const leftFuc = () => {
-        const divarr = divs.value;
-        const result = divarr.filter(div => div.classList.contains('selected'))[0];
-        const {width} = result.getBoundingClientRect();
+        // const divarr = divs.value;
+        // const result = divarr.filter(div => div.classList.contains('selected'))[0];
+        const {width} = selectedDiv.value.getBoundingClientRect();
         indicator.value.style.width = width + 'px';
         const {left: left1} = container.value.getBoundingClientRect();
-        const {left: left2} = result.getBoundingClientRect();
+        const {left: left2} = selectedDiv.value.getBoundingClientRect();
         indicator.value.style.left = left2 - left1 + 'px';
       };
       onMounted(leftFuc);
@@ -58,7 +59,7 @@
         context.emit('update:selected', title);
       };
 
-      return {defaults, titles, select, divs, indicator, container};
+      return {defaults, titles, select, indicator, container,selectedDiv};
     }
   };
 </script>
