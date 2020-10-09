@@ -10,14 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/svg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
-    </list>
+    <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="85196000" />
+      <workItem from="1602109819425" duration="85726000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -366,7 +359,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602270784015</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="从iconfont.cn引入">
+      <created>1602275332469</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1602275332469</updated>
+    </task>
+    <task id="LOCAL-00043" summary="使用本地的svg">
+      <created>1602275351112</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1602275351112</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,8 +392,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="switch可以切换了" />
-    <MESSAGE value="加上流畅动画" />
     <MESSAGE value="switch轮子可以接受外部控制切换的值" />
     <MESSAGE value="使用v-model简化switch" />
     <MESSAGE value="创建button" />
@@ -410,7 +415,9 @@
     <MESSAGE value="用watchEffect导航切换错乱" />
     <MESSAGE value="换用onUpdated" />
     <MESSAGE value="背景渐变" />
-    <option name="LAST_COMMIT_MESSAGE" value="背景渐变" />
+    <MESSAGE value="从iconfont.cn引入" />
+    <MESSAGE value="使用本地的svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用本地的svg" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">

@@ -38,6 +38,7 @@
 <style lang="scss">
   .topnavAndBanner{
     background: linear-gradient(145deg, rgba(227,255,253,1) 0%, rgba(187,236,233,1) 100%);
+    clip-path: ellipse(80% 60% at 50% 40%);
   }
   .features{
     svg{
