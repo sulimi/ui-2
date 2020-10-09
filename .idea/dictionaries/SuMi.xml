@@ -2,6 +2,7 @@
   <dictionary name="SuMi">
     <words>
       <w>dochome</w>
+      <w>selectedvalue</w>
       <w>sumi</w>
       <w>sumibutton</w>
       <w>topnav</w>
