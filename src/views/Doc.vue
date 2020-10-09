@@ -60,13 +60,13 @@
       main{
         flex-grow: 1;
         padding: 16px;
-        background: lightgreen;
+        /*background: lightgreen;*/
         overflow: auto;
       }
 
       aside {
         flex-shrink: 0;
-        background: lightblue;
+        /*background: lightblue;*/
         width: 150px;
         padding: 70px 16px 16px;
         position: fixed;

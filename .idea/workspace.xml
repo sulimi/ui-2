@@ -11,9 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/SuMi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/SuMi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/TabsTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/TabsTool.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="79554000" />
+      <workItem from="1602109819425" duration="81418000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -334,7 +333,28 @@
       <option name="project" value="LOCAL" />
       <updated>1602264498402</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="使用computed计算属性切换内容">
+      <created>1602267319909</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1602267319909</updated>
+    </task>
+    <task id="LOCAL-00039" summary="用watchEffect导航切换错乱">
+      <created>1602267427319</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1602267427319</updated>
+    </task>
+    <task id="LOCAL-00040" summary="换用onUpdated">
+      <created>1602267486859</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1602267486859</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,9 +373,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完善PC点aside不切换" />
-    <MESSAGE value="完成切换路由隐藏aside" />
-    <MESSAGE value="基本完成官网框架" />
     <MESSAGE value="switch hover之后切换" />
     <MESSAGE value="switch可以切换了" />
     <MESSAGE value="加上流畅动画" />
@@ -378,7 +395,10 @@
     <MESSAGE value="导航条切换动画" />
     <MESSAGE value="优化代码1" />
     <MESSAGE value="优化代码2" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化代码2" />
+    <MESSAGE value="使用computed计算属性切换内容" />
+    <MESSAGE value="用watchEffect导航切换错乱" />
+    <MESSAGE value="换用onUpdated" />
+    <option name="LAST_COMMIT_MESSAGE" value="换用onUpdated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">
@@ -393,10 +413,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602117230846" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602068217828">
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602270003556">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602068217828" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602270003556" />
     <state x="2298" y="0" width="851" height="1081" key="dock-window-1" timestamp="1602126688035">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>

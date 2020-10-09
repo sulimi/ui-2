@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Topnav></Topnav>
+  <div class="topnavAndBanner">
+    <Topnav />
     <div class="banner">
       <h1>我的UI</h1>
       <h2>这是一个厉害的UI框架</h2>
@@ -22,13 +22,16 @@
 
 
 <style lang="scss">
+  .topnavAndBanner{
+    background: linear-gradient(145deg, rgba(227,255,253,1) 0%, rgba(187,236,233,1) 100%);
+  }
 .banner{
   padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: lightgreen;
+  /*background: lightgreen;*/
   .actions{
     padding: 8px 0;
     a{
