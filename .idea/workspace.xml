@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/SuMi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/SuMi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/TabsTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/TabsTool.vue" afterDir="false" />
     </list>
@@ -72,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="66158000" />
+      <workItem from="1602109819425" duration="73206000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -298,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602250084085</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="使用CSS切换内容">
+      <created>1602250665660</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1602250665660</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +325,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="初始化aside HTML" />
     <MESSAGE value="初始化aside CSS" />
     <MESSAGE value="调节Topnav和aside的位置" />
     <MESSAGE value="实现aside切换" />
@@ -342,7 +349,8 @@
     <MESSAGE value="Dialog打开方式：创建/销毁" />
     <MESSAGE value="渲染完TabsTool内容" />
     <MESSAGE value="内容切换Tab插槽内容无法更新（Vue 3）bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="内容切换Tab插槽内容无法更新（Vue 3）bug" />
+    <MESSAGE value="使用CSS切换内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用CSS切换内容" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">

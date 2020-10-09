@@ -3,7 +3,7 @@
   <h1>示例1</h1>
   <TabsTool v-model:selected="selectedvalue">
     <Tab title="导航1">内容1</Tab>
-    <Tab title="导航2">内容2</Tab>
+    <Tab title="导航22222222">内容2</Tab>
   </TabsTool>
 </template>
 <script lang="ts">

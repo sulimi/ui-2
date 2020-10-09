@@ -1,11 +1,13 @@
 <template>
   <div class="sumi-tabs">
-    <div class="sumi-tabs-nav">
+    <div class="sumi-tabs-nav" ref="container">
       <div class="sumi-tabs-nav-item"
            :class="{selected: t===selected}"
            @click="select(t)"
+           :ref="el => { if (el) divs[index] = el }"
            v-for="(t,index) in titles" :key="index">{{t}}
       </div>
+      <div class="sumi-tabs-nav-indicator" ref="indicator"></div>
     </div>
     <div class="sumi-tabs-content">
       <component v-for="(tag,index) in defaults" :key="index"
@@ -19,7 +21,7 @@
 </template>
 <script lang="ts">
   import Tab from './Tab.vue';
-  import {computed} from 'vue';
+  import {ref, onMounted,onUpdated} from 'vue';
 
   export default {
     props: {
@@ -28,6 +30,27 @@
       }
     },
     setup(props, context) {
+      const divs = ref<HTMLDivElement[]>([]);
+      const indicator = ref<HTMLDivElement>(null);
+      const container = ref<HTMLDivElement>(null);
+      onMounted(() => {
+        const divarr = divs.value;
+        const result = divarr.filter(div => div.classList.contains('selected'))[0];
+        const {width} = result.getBoundingClientRect();
+        indicator.value.style.width = width + 'px';
+        const {left: left1} = container.value.getBoundingClientRect();
+        const {left: left2} = result.getBoundingClientRect();
+        indicator.value.style.left = left2 - left1 + 'px';
+      });
+      onUpdated(()=>{
+        const divarr = divs.value;
+        const result = divarr.filter(div => div.classList.contains('selected'))[0];
+        const {width} = result.getBoundingClientRect();
+        indicator.value.style.width = width + 'px';
+        const {left: left1} = container.value.getBoundingClientRect();
+        const {left: left2} = result.getBoundingClientRect();
+        indicator.value.style.left = left2 - left1 + 'px';
+      })
       const defaults = context.slots.default();
       defaults.forEach(tag => {
         if (tag.type !== Tab) {
@@ -42,7 +65,7 @@
         context.emit('update:selected', title);
       };
 
-      return {defaults, titles, select};
+      return {defaults, titles, select, divs, indicator, container};
     }
   };
 </script>
@@ -55,6 +78,7 @@
       display: flex;
       color: $color;
       border-bottom: 1px solid $border-color;
+      position: relative;
 
       &-item {
         padding: 8px 0;
@@ -69,13 +93,24 @@
           color: $blue;
         }
       }
+
+      &-indicator {
+        position: absolute;
+        height: 3px;
+        background: $blue;
+        left: 0;
+        bottom: -1px;
+        width: 100px;
+      }
     }
 
     &-content {
       padding: 8px 0;
-      &-item{
+
+      &-item {
         display: none;
-        &.selected{
+
+        &.selected {
           display: block;
         }
       }
