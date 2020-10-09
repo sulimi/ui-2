@@ -21,7 +21,7 @@
 </template>
 <script lang="ts">
   import Tab from './Tab.vue';
-  import {ref, onMounted,onUpdated} from 'vue';
+  import {ref, onMounted, onUpdated} from 'vue';
 
   export default {
     props: {
@@ -33,7 +33,7 @@
       const divs = ref<HTMLDivElement[]>([]);
       const indicator = ref<HTMLDivElement>(null);
       const container = ref<HTMLDivElement>(null);
-      onMounted(() => {
+      const leftFuc = () => {
         const divarr = divs.value;
         const result = divarr.filter(div => div.classList.contains('selected'))[0];
         const {width} = result.getBoundingClientRect();
@@ -41,16 +41,9 @@
         const {left: left1} = container.value.getBoundingClientRect();
         const {left: left2} = result.getBoundingClientRect();
         indicator.value.style.left = left2 - left1 + 'px';
-      });
-      onUpdated(()=>{
-        const divarr = divs.value;
-        const result = divarr.filter(div => div.classList.contains('selected'))[0];
-        const {width} = result.getBoundingClientRect();
-        indicator.value.style.width = width + 'px';
-        const {left: left1} = container.value.getBoundingClientRect();
-        const {left: left2} = result.getBoundingClientRect();
-        indicator.value.style.left = left2 - left1 + 'px';
-      })
+      };
+      onMounted(leftFuc);
+      onUpdated(leftFuc);
       const defaults = context.slots.default();
       defaults.forEach(tag => {
         if (tag.type !== Tab) {
@@ -101,6 +94,7 @@
         left: 0;
         bottom: -1px;
         width: 100px;
+        transition: all 250ms;
       }
     }
 
