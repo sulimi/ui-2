@@ -1,6 +1,11 @@
 <template>
   <div class="topnav">
-    <div class="logo" >LOGO</div>
+    <div class="logo">
+      <!--      LOGO-->
+      <svg class="icon">
+        <use xlink:href="#icon-wangzhe"></use>
+      </svg>
+    </div>
     <ul class="menu">
       <li>菜单1</li>
       <li>菜单2</li>
@@ -30,8 +35,8 @@
     padding: 16px;
     position: relative;
     position: fixed;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 10;
     justify-content: center;
@@ -40,6 +45,10 @@
     .logo {
       max-width: 6em;
       margin-right: auto;
+      svg{
+        width: 32px;
+        height: 32px;
+      }
     }
 
     .menu {
@@ -51,24 +60,26 @@
         margin: 0 1em
       }
     }
-    .toggleAside{
+
+    .toggleAside {
       width: 24px;
       height: 24px;
       background: red;
       position: absolute;
       left: 16px;
-      top:50%;
+      top: 50%;
       transform: translateY(-50%);
       display: none;
     }
-    @media (max-width:500px) {
-      .menu{
+
+    @media (max-width: 500px) {
+      .menu {
         display: none;
       }
-      .logo{
+      .logo {
         margin: 0 auto;
       }
-      .toggleAside{
+      .toggleAside {
         display: inline-block;
       }
     }
