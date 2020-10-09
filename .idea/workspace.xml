@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="" />
+    <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/svg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="85726000" />
+      <workItem from="1602109819425" duration="88283000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -373,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602275351112</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="实现背景圆弧">
+      <created>1602276008459</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1602276008459</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +405,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="switch轮子可以接受外部控制切换的值" />
     <MESSAGE value="使用v-model简化switch" />
     <MESSAGE value="创建button" />
     <MESSAGE value="css最小影响原则" />
@@ -417,7 +429,8 @@
     <MESSAGE value="背景渐变" />
     <MESSAGE value="从iconfont.cn引入" />
     <MESSAGE value="使用本地的svg" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用本地的svg" />
+    <MESSAGE value="实现背景圆弧" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现背景圆弧" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">
@@ -440,10 +453,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2298" y="0" width="851" height="1081" key="dock-window-1/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602126688035" />
-    <state x="385" y="96" width="596" height="536" key="find.popup" timestamp="1602161459926">
+    <state x="385" y="96" width="596" height="536" key="find.popup" timestamp="1602280212030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="385" y="96" width="596" height="536" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602161459926" />
+    <state x="385" y="96" width="596" height="536" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602280212030" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602275110711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
