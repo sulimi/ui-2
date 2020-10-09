@@ -4,24 +4,19 @@
       <div class="sumi-tabs-nav-item"
            :class="{selected: t===selected}"
            @click="select(t)"
-           :ref="el => { if (t===selected) selectedDiv = el }"
-           v-for="(t,index) in titles" :key="index">{{t}}
+           v-for="(t,index) in titles" :key="index"
+           :ref="el => { if (t===selected) selectedDiv = el }">{{t}}
       </div>
       <div class="sumi-tabs-nav-indicator" ref="indicator"></div>
     </div>
     <div class="sumi-tabs-content">
-      <component v-for="(tag,index) in defaults" :key="index"
-                 class="sumi-tabs-content-item"
-                 :class="{selected:tag.props.title === selected}"
-                 :is="tag">
-
-      </component>
+      <component :is="selectConten" :key="selectConten.props.title"></component>
     </div>
   </div>
 </template>
 <script lang="ts">
   import Tab from './Tab.vue';
-  import {ref, onMounted, onUpdated,watchEffect} from 'vue';
+  import {ref, onMounted, watchEffect, computed,onUpdated} from 'vue';
 
   export default {
     props: {
@@ -33,22 +28,27 @@
       const selectedDiv = ref<HTMLDivElement>(null);
       const indicator = ref<HTMLDivElement>(null);
       const container = ref<HTMLDivElement>(null);
-      onMounted(()=>{
-        watchEffect(() => {
-          const {width} = selectedDiv.value.getBoundingClientRect();
-          indicator.value.style.width = width + 'px';
-          const {left: left1} = container.value.getBoundingClientRect();
-          const {left: left2} = selectedDiv.value.getBoundingClientRect();
-          indicator.value.style.left = left2 - left1 + 'px';
-        })
-      });
+      const leftFunc= () => {
+        console.log(111);
+        const {width} = selectedDiv.value.getBoundingClientRect();
+        indicator.value.style.width = width + 'px';
+        const {left: left1} = container.value.getBoundingClientRect();
+        const {left: left2} = selectedDiv.value.getBoundingClientRect();
+        console.log(selectedDiv);
+        console.log(left2);
+        indicator.value.style.left = left2 - left1 + 'px';
+      }
+      onMounted(leftFunc);
+      onUpdated(leftFunc)
       const defaults = context.slots.default();
       defaults.forEach(tag => {
         if (tag.type !== Tab) {
           throw new Error('Tabs 子标签必须是 Tab');
         }
       });
-
+      const selectConten = computed(() => {
+        return defaults.filter(tag => tag.props.title === props.selected)[0];
+      });
       const titles = defaults.map(tag => {
         return tag.props.title;
       });
@@ -56,7 +56,7 @@
         context.emit('update:selected', title);
       };
 
-      return {defaults, titles, select, indicator, container,selectedDiv};
+      return {defaults, titles, select, indicator, container, selectedDiv,selectConten};
     }
   };
 </script>
@@ -98,14 +98,6 @@
 
     &-content {
       padding: 8px 0;
-
-      &-item {
-        display: none;
-
-        &.selected {
-          display: block;
-        }
-      }
     }
   }
 </style>

@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/SuMi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/SuMi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/TabsTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/TabsTool.vue" afterDir="false" />
     </list>
@@ -72,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="76116000" />
+      <workItem from="1602109819425" duration="79554000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -326,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602261815170</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="优化代码2">
+      <created>1602264498402</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1602264498402</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +353,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="让topnav是响应式的" />
     <MESSAGE value="完善PC点aside不切换" />
     <MESSAGE value="完成切换路由隐藏aside" />
     <MESSAGE value="基本完成官网框架" />
@@ -370,7 +377,8 @@
     <MESSAGE value="导航条宽度和切换" />
     <MESSAGE value="导航条切换动画" />
     <MESSAGE value="优化代码1" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化代码1" />
+    <MESSAGE value="优化代码2" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化代码2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">
