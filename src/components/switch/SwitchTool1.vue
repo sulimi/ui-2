@@ -5,7 +5,7 @@
   <SwitchTool v-model:value="bool"></SwitchTool>
 </template>
 <script lang="ts">
-  import SwitchTool from '../lib/SwitchTool.vue';
+  import SwitchTool from './SwitchTool.vue';
   import {ref} from 'vue';
 
   export default {

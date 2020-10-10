@@ -11,9 +11,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/button/ButtonTool1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/ButtonTool2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/ButtonTool3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/ButtonTool4.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/ButtonTool5.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dialog/DialogTool1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dialog/DialogTool2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tab/TabTool1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tab/TabTool2.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/Button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialog/Dialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchTool1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch/SwitchTool1.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchTool2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch/SwitchTool2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ButtonTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/ButtonTool.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/DialogTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialog/DialogTool.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/SwitchTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch/SwitchTool.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/Tab.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/TabsTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/TabTool.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/openDialog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/openDialog.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +79,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WebProject\JiRenGu\sumi-ui\src\components" />
-      <recent name="E:\WebProject\JiRenGu\sumi-ui\src\views" />
-      <recent name="E:\WebProject\JiRenGu\sumi-ui" />
-      <recent name="E:\WebProject\JiRenGu\sumi-ui\src" />
+      <recent name="E:\WebProject\JiRenGu\sumi-ui\src\components\tab" />
+      <recent name="E:\WebProject\JiRenGu\sumi-ui\src\components\dialog" />
+      <recent name="E:\WebProject\JiRenGu\sumi-ui\src\components\button" />
+      <recent name="E:\WebProject\JiRenGu\sumi-ui\src\components\switch" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -75,14 +97,7 @@
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
       <workItem from="1602109819425" duration="89093000" />
-      <workItem from="1602298488046" duration="23762000" />
-    </task>
-    <task id="LOCAL-00009" summary="实现aside切换">
-      <created>1602118551971</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1602118551971</updated>
+      <workItem from="1602298488046" duration="31341000" />
     </task>
     <task id="LOCAL-00010" summary="让topnav是响应式的">
       <created>1602119372563</created>
@@ -420,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602344817239</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="点击源代码显示隐藏">
+      <created>1602345282962</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1602345282962</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +461,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="使用CSS切换内容" />
     <MESSAGE value="导航条宽度和切换" />
     <MESSAGE value="导航条切换动画" />
     <MESSAGE value="优化代码1" />
@@ -464,13 +485,14 @@
     <MESSAGE value="用component代替组件标签" />
     <MESSAGE value="展示源代码并且高亮" />
     <MESSAGE value="封装Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装Demo" />
+    <MESSAGE value="点击源代码显示隐藏" />
+    <option name="LAST_COMMIT_MESSAGE" value="点击源代码显示隐藏" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">
+    <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602348733719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602127154797" />
+    <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602348733719" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602328271783">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -487,10 +509,14 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2298" y="0" width="851" height="1081" key="dock-window-1/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602126688035" />
-    <state x="385" y="96" width="596" height="536" key="find.popup" timestamp="1602328127517">
+    <state x="385" y="96" width="596" height="536" key="find.popup" timestamp="1602353444157">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="385" y="96" width="596" height="536" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602328127517" />
+    <state x="385" y="96" width="596" height="536" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602353444157" />
+    <state x="475" y="222" key="scopes" timestamp="1602349531134">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="222" key="scopes/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602349531134" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602303844388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

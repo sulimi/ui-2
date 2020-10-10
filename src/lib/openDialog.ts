@@ -1,4 +1,4 @@
-import DialogTool from '../lib/DialogTool.vue';
+import DialogTool from '../components/dialog/DialogTool.vue';
 import {createApp, h} from 'vue';
 
 export const openDialog = (options) => {

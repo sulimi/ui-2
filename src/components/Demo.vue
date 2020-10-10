@@ -1,9 +1,11 @@
 <template>
   <div class="demo">
     <h2>{{component.__sourceCodeTitle}}</h2>
-    <component is="component"/>
+    <div class="demo-component">
+      <component :is="component"/>
+    </div>
     <div class="demo-actions">
-      <ButtonTool @click="codeVisible=!codeVisible">查看代码</ButtonTool>
+      <ButtonTool @click="codeVisible=!codeVisible" class="but">查看代码</ButtonTool>
     </div>
     <div class="demo-code" v-if="codeVisible">
       <pre class="language-html" v-html="html"></pre>
@@ -11,14 +13,14 @@
   </div>
 </template>
 <script lang="ts">
-  import ButtonTool from '../lib/ButtonTool.vue';
+  import ButtonTool from './button/ButtonTool.vue';
   import 'prismjs';
   import 'prismjs/themes/prism.css';
   import {computed, ref} from 'vue';
 
   const Prism = (window as any).Prism;
   export default {
-    components: {ButtonTool},
+    component: {ButtonTool},
     props: {
       component: Object
     },
@@ -51,6 +53,9 @@
     &-actions {
       padding: 8px 16px;
       border-top: 1px dashed $border-color;
+      .but{
+        cursor: pointer;
+      }
     }
 
     &-code {

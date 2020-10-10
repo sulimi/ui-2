@@ -7,14 +7,13 @@
 
 </template>
 <script lang="ts">
-  import ButtonTool from '../lib/ButtonTool.vue';
   import SwitchTool1 from './SwitchTool1.vue';
   import SwitchTool2 from './SwitchTool2.vue';
-  import Demo from './Demo.vue';
+  import Demo from '../Demo.vue';
 
 
   export default {
-    components: {Demo, ButtonTool},
+    components: {Demo},
     setup() {
 
       return {SwitchTool2, SwitchTool1};

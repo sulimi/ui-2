@@ -18,7 +18,7 @@
   </template>
 </template>
 <script lang="ts">
-  import ButtonTool from './ButtonTool.vue';
+  import ButtonTool from '../button/ButtonTool.vue';
 
   export default {
     components: {ButtonTool},
