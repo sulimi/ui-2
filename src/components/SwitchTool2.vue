@@ -1,5 +1,5 @@
 <demo>
-  常规用法
+  支持 disabled
 </demo>
 <template>
   <SwitchTool v-model:value="bool" disabled></SwitchTool>
