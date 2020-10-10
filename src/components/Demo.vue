@@ -5,7 +5,9 @@
       <component :is="component"/>
     </div>
     <div class="demo-actions">
-      <ButtonTool @click="codeVisible=!codeVisible" class="but">查看代码</ButtonTool>
+      <ButtonTool @click="codeVisible=false" class="but" v-if="codeVisible">隐藏代码</ButtonTool>
+      <ButtonTool @click="codeVisible=true" class="but" v-else>查看代码</ButtonTool>
+
     </div>
     <div class="demo-code" v-if="codeVisible">
       <pre class="language-html" v-html="html"></pre>

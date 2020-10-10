@@ -11,7 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tab/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/Tab.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tab/TabTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/TabTool.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +78,7 @@
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
       <workItem from="1602109819425" duration="89093000" />
-      <workItem from="1602298488046" duration="39709000" />
-    </task>
-    <task id="LOCAL-00017" summary="switch轮子可以接受外部控制切换的值">
-      <created>1602145415153</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1602145415153</updated>
+      <workItem from="1602298488046" duration="41110000" />
     </task>
     <task id="LOCAL-00018" summary="使用v-model简化switch">
       <created>1602146721867</created>
@@ -419,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602362666049</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="GitHub改版了，master变成main">
+      <created>1602363378571</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1602363378571</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
