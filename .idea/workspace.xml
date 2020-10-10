@@ -11,11 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/views/GetStared.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/svg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
-      <workItem from="1602109819425" duration="88283000" />
+      <workItem from="1602109819425" duration="89093000" />
+      <workItem from="1602298488046" duration="1513000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -386,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602276008459</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="更新菜单切换按钮样式">
+      <created>1602280999491</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1602280999491</updated>
+    </task>
+    <task id="LOCAL-00046" summary="点击logo回到首页">
+      <created>1602281190241</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1602281190241</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,8 +421,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="使用v-model简化switch" />
-    <MESSAGE value="创建button" />
     <MESSAGE value="css最小影响原则" />
     <MESSAGE value="按钮多样化：theme和size属性" />
     <MESSAGE value="按钮多样化：level属性" />
@@ -430,7 +444,9 @@
     <MESSAGE value="从iconfont.cn引入" />
     <MESSAGE value="使用本地的svg" />
     <MESSAGE value="实现背景圆弧" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现背景圆弧" />
+    <MESSAGE value="更新菜单切换按钮样式" />
+    <MESSAGE value="点击logo回到首页" />
+    <option name="LAST_COMMIT_MESSAGE" value="点击logo回到首页" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">
