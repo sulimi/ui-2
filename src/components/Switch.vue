@@ -3,9 +3,7 @@
     <h1>Switch 组件示例 </h1>
     <div class="demo">
       <h2>常规用法</h2>
-      <div class="demo-component">
-        <SwitchTool v-model:value="bool"/>
-      </div>
+      <SwitchTool1 />
       <div class="demo-actions">
         <ButtonTool>查看代码</ButtonTool>
       </div>
@@ -15,9 +13,7 @@
     </div>
     <div class="demo">
       <h2>支持 disabled </h2>
-      <div class="demo-component">
-        <SwitchTool v-model:value="bool" disabled />
-      </div>
+      <SwitchTool2 />
       <div class="demo-actions">
         <ButtonTool>查看代码</ButtonTool>
       </div>
@@ -29,18 +25,11 @@
 
 </template>
 <script>
-  import SwitchTool from '../lib/SwitchTool.vue';
-  import {ref} from 'vue';
   import ButtonTool from '../lib/ButtonTool.vue';
-
+  import SwitchTool1 from './SwitchTool1.vue';
+  import SwitchTool2 from './SwitchTool2.vue';
   export default {
-    components: {ButtonTool, SwitchTool},
-
-    setup() {
-      const isToggle = ref(false);
-      const bool = ref(false);
-      return {isToggle, bool};
-    }
+    components: {SwitchTool2, SwitchTool1, ButtonTool},
   };
 </script>
 <style lang="scss" scoped>

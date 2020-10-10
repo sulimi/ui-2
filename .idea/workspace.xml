@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/SwitchTool1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SwitchTool2.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
     </list>
@@ -74,14 +76,7 @@
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
       <workItem from="1602109819425" duration="89093000" />
-      <workItem from="1602298488046" duration="13446000" />
-    </task>
-    <task id="LOCAL-00003" summary="封装Topnav">
-      <created>1602111864583</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1602111864583</updated>
+      <workItem from="1602298488046" duration="14436000" />
     </task>
     <task id="LOCAL-00004" summary="Home的css样式">
       <created>1602112474972</created>
@@ -419,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602329362377</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="更新Switch组件">
+      <created>1602332470894</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1602332470894</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +440,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dialog轮子雏形" />
     <MESSAGE value="Dialog点击关闭" />
     <MESSAGE value="Dialog使用Teleport防止被遮挡" />
     <MESSAGE value="Dialog打开方式：创建/销毁" />
@@ -463,7 +464,8 @@
     <MESSAGE value="复杂一点的高亮当前选中路由" />
     <MESSAGE value="支持markdown语法" />
     <MESSAGE value="封装优化代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装优化代码" />
+    <MESSAGE value="更新Switch组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新Switch组件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">
