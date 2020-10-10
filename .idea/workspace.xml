@@ -11,11 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shims-vue.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/markdown.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +75,7 @@
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
       <workItem from="1602109819425" duration="89093000" />
-      <workItem from="1602298488046" duration="37586000" />
-    </task>
-    <task id="LOCAL-00013" summary="基本完成官网框架">
-      <created>1602127601094</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1602127601094</updated>
+      <workItem from="1602298488046" duration="38393000" />
     </task>
     <task id="LOCAL-00014" summary="switch hover之后切换">
       <created>1602140480785</created>
@@ -423,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602356471059</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="修改部署路径部署到GitHub">
+      <created>1602361214605</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1602361214605</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +439,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="优化代码2" />
     <MESSAGE value="使用computed计算属性切换内容" />
     <MESSAGE value="用watchEffect导航切换错乱" />
     <MESSAGE value="换用onUpdated" />
@@ -467,7 +463,8 @@
     <MESSAGE value="封装Button、Dialog、Tab的源代码文件" />
     <MESSAGE value="重定向文档页路由" />
     <MESSAGE value="忽略dist目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="忽略dist目录" />
+    <MESSAGE value="修改部署路径部署到GitHub" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改部署路径部署到GitHub" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602348733719">
