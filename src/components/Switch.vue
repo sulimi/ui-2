@@ -8,7 +8,7 @@
         <ButtonTool>查看代码</ButtonTool>
       </div>
       <div class="demo-code">
-        <pre>&lt;Switch v-model:value="bool" /&gt;</pre>
+        <pre v-text="SwitchTool1.__sourceCode"></pre>
       </div>
     </div>
     <div class="demo">
@@ -18,7 +18,7 @@
         <ButtonTool>查看代码</ButtonTool>
       </div>
       <div class="demo-code">
-        <pre>&lt;Switch v-model:value="bool" disabled /&gt;</pre>
+        <pre v-text="SwitchTool2.__sourceCode"></pre>
       </div>
     </div>
   </div>
@@ -30,6 +30,9 @@
   import SwitchTool2 from './SwitchTool2.vue';
   export default {
     components: {SwitchTool2, SwitchTool1, ButtonTool},
+    setup(){
+      return{SwitchTool2,SwitchTool1}
+    }
   };
 </script>
 <style lang="scss" scoped>
