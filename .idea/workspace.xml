@@ -11,17 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/markdown.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/SuMi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/SuMi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdowm/getstared.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/getstared.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdowm/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdowm/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/GetStared.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +74,7 @@
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
       <workItem from="1602109819425" duration="89093000" />
-      <workItem from="1602298488046" duration="11343000" />
-    </task>
-    <task id="LOCAL-00002" summary="初始化路由">
-      <created>1602069706616</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1602069706616</updated>
+      <workItem from="1602298488046" duration="13446000" />
     </task>
     <task id="LOCAL-00003" summary="封装Topnav">
       <created>1602111864583</created>
@@ -428,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602326257606</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="封装优化代码">
+      <created>1602329362377</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1602329362377</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +438,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="按钮多样化：loading属性" />
     <MESSAGE value="Dialog轮子雏形" />
     <MESSAGE value="Dialog点击关闭" />
     <MESSAGE value="Dialog使用Teleport防止被遮挡" />
@@ -472,7 +462,8 @@
     <MESSAGE value="简单高亮当前选中路由" />
     <MESSAGE value="复杂一点的高亮当前选中路由" />
     <MESSAGE value="支持markdown语法" />
-    <option name="LAST_COMMIT_MESSAGE" value="支持markdown语法" />
+    <MESSAGE value="封装优化代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="封装优化代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">

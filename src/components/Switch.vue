@@ -1,18 +1,78 @@
 <template>
   <div>
-    <SwitchTool v-model:value="isToggle"/>
+    <h1>Switch 组件示例 </h1>
+    <div class="demo">
+      <h2>常规用法</h2>
+      <div class="demo-component">
+        <SwitchTool v-model:value="bool"/>
+      </div>
+      <div class="demo-actions">
+        <ButtonTool>查看代码</ButtonTool>
+      </div>
+      <div class="demo-code">
+        <pre>&lt;Switch v-model:value="bool" /&gt;</pre>
+      </div>
+    </div>
+    <div class="demo">
+      <h2>支持 disabled </h2>
+      <div class="demo-component">
+        <SwitchTool v-model:value="bool" disabled />
+      </div>
+      <div class="demo-actions">
+        <ButtonTool>查看代码</ButtonTool>
+      </div>
+      <div class="demo-code">
+        <pre>&lt;Switch v-model:value="bool" disabled /&gt;</pre>
+      </div>
+    </div>
   </div>
+
 </template>
 <script>
   import SwitchTool from '../lib/SwitchTool.vue';
   import {ref} from 'vue';
+  import ButtonTool from '../lib/ButtonTool.vue';
 
   export default {
-    components: {SwitchTool},
+    components: {ButtonTool, SwitchTool},
 
     setup() {
       const isToggle = ref(false);
-      return {isToggle};
+      const bool = ref(false);
+      return {isToggle, bool};
     }
   };
 </script>
+<style lang="scss" scoped>
+  $border-color: #d9d9d9;
+  .demo {
+    border: 1px solid $border-color;
+    margin: 16px 0 32px;
+
+    > h2 {
+      font-size: 20px;
+      padding: 8px 16px;
+      border-bottom: 1px solid $border-color;
+    }
+
+    &-component {
+      padding: 16px;
+    }
+
+    &-actions {
+      padding: 8px 16px;
+      border-top: 1px dashed $border-color;
+    }
+
+    &-code {
+      padding: 8px 16px;
+      border-top: 1px dashed $border-color;
+
+      > pre {
+        line-height: 1.1;
+        font-family: Consolas, 'Courier New', Courier, monospace;
+        margin: 0;
+      }
+    }
+  }
+</style>
