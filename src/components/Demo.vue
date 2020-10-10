@@ -3,25 +3,31 @@
     <h2>{{component.__sourceCodeTitle}}</h2>
     <component is="component"/>
     <div class="demo-actions">
-      <ButtonTool>查看代码</ButtonTool>
+      <ButtonTool @click="codeVisible=!codeVisible">查看代码</ButtonTool>
     </div>
-    <div class="demo-code">
-      <pre class="language-html" v-html="Prism.highlight(component.__sourceCode, Prism.languages.html, 'html')"></pre>
+    <div class="demo-code" v-if="codeVisible">
+      <pre class="language-html" v-html="html"></pre>
     </div>
   </div>
 </template>
 <script lang="ts">
   import ButtonTool from '../lib/ButtonTool.vue';
   import 'prismjs';
-  import 'prismjs/themes/prism.css'
+  import 'prismjs/themes/prism.css';
+  import {computed, ref} from 'vue';
+
   const Prism = (window as any).Prism;
   export default {
     components: {ButtonTool},
     props: {
       component: Object
     },
-    setup() {
-      return {Prism};
+    setup(props) {
+      const html = computed(() => {
+        return Prism.highlight(props.component.__sourceCode, Prism.languages.html, 'html');
+      });
+      const codeVisible = ref(false);
+      return {Prism, html, codeVisible};
     }
   };
 </script>
