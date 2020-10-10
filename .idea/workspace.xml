@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="" />
+    <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,14 +74,7 @@
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
       <workItem from="1602109819425" duration="89093000" />
-      <workItem from="1602298488046" duration="39066000" />
-    </task>
-    <task id="LOCAL-00016" summary="加上流畅动画">
-      <created>1602141362973</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1602141362973</updated>
+      <workItem from="1602298488046" duration="39709000" />
     </task>
     <task id="LOCAL-00017" summary="switch轮子可以接受外部控制切换的值">
       <created>1602145415153</created>
@@ -417,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602362443156</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="GitHub改版了，master变成main">
+      <created>1602362666049</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1602362666049</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +438,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="用watchEffect导航切换错乱" />
     <MESSAGE value="换用onUpdated" />
     <MESSAGE value="背景渐变" />
     <MESSAGE value="从iconfont.cn引入" />
@@ -461,7 +462,8 @@
     <MESSAGE value="忽略dist目录" />
     <MESSAGE value="修改部署路径部署到GitHub" />
     <MESSAGE value="添加一键部署脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加一键部署脚本" />
+    <MESSAGE value="GitHub改版了，master变成main" />
+    <option name="LAST_COMMIT_MESSAGE" value="GitHub改版了，master变成main" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602348733719">
