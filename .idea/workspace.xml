@@ -73,7 +73,7 @@
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
       <workItem from="1602109819425" duration="89093000" />
-      <workItem from="1602298488046" duration="2018000" />
+      <workItem from="1602298488046" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -404,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602300204212</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="简单高亮当前选中路由">
+      <created>1602300582688</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1602300582688</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +430,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="按钮多样化：theme和size属性" />
     <MESSAGE value="按钮多样化：level属性" />
     <MESSAGE value="按钮多样化：disabled属性" />
     <MESSAGE value="按钮多样化：loading属性" />
@@ -448,7 +454,8 @@
     <MESSAGE value="更新菜单切换按钮样式" />
     <MESSAGE value="点击logo回到首页" />
     <MESSAGE value="创建介绍、安装、开始路由" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建介绍、安装、开始路由" />
+    <MESSAGE value="简单高亮当前选中路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单高亮当前选中路由" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">

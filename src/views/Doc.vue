@@ -54,9 +54,7 @@
 </script>
 
 <style lang="scss">
-  .router-link-exact-active{
-    text-decoration: underline;
-  }
+
   .layout{
     display: flex;
     flex-direction: column;
@@ -83,18 +81,28 @@
         flex-shrink: 0;
         background: lightblue;
         width: 150px;
-        padding: 70px 16px 16px;
+        padding: 70px 0 16px;
         position: fixed;
         top: 0;
         left: 0;
         height: 100%;
         h2 {
           margin-bottom: 4px;
+          padding: 4px 16px;
         }
 
         ol {
           li {
-            padding: 4px 0;
+
+            a{
+              padding: 4px 16px;
+              display: block;
+              text-decoration: none;
+            }
+            .router-link-exact-active{
+              background: white;
+
+            }
           }
         }
 
