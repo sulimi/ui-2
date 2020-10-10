@@ -7,9 +7,13 @@ import Button from './components/button/Button.vue';
 import Switch from './components/switch/Switch.vue';
 import {h} from 'vue';
 import Markdown from './components/Markdown.vue';
+import intro from './markdown/intro.md'
+import install from './markdown/install.md'
+import getstared from './markdown/getstared.md'
+
 
 const history = createWebHashHistory();
-const md = filename => h(Markdown, {path: `../markdown/${filename}.md`, key: filename});
+const md = string => h(Markdown, {content: string, key: string});
 const router = createRouter({
   history: history,
   routes: [
@@ -18,9 +22,9 @@ const router = createRouter({
       path: '/doc', component: Doc,
       children: [
         {path: '', redirect: '/doc/intro'},
-        {path: 'intro', component: md('intro')},
-        {path: 'install', component: md('install')},
-        {path: 'get-started', component: md('getstared')},
+        {path: 'intro', component: md(intro)},
+        {path: 'install', component: md(install)},
+        {path: 'get-started', component: md(getstared)},
         {path: 'switch', component: Switch},
         {path: 'button', component: Button},
         {path: 'dialog', component: Dialog},
