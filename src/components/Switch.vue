@@ -3,7 +3,7 @@
     <h1>Switch 组件示例 </h1>
     <div class="demo">
       <h2>常规用法</h2>
-      <SwitchTool1 />
+      <component is="SwitchTool1" />
       <div class="demo-actions">
         <ButtonTool>查看代码</ButtonTool>
       </div>
@@ -13,7 +13,7 @@
     </div>
     <div class="demo">
       <h2>支持 disabled </h2>
-      <SwitchTool2 />
+      <component is="SwitchTool2" />
       <div class="demo-actions">
         <ButtonTool>查看代码</ButtonTool>
       </div>
@@ -29,7 +29,7 @@
   import SwitchTool1 from './SwitchTool1.vue';
   import SwitchTool2 from './SwitchTool2.vue';
   export default {
-    components: {SwitchTool2, SwitchTool1, ButtonTool},
+    components: { ButtonTool},
     setup(){
       return{SwitchTool2,SwitchTool1}
     }
