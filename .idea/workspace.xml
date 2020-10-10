@@ -11,29 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/button/ButtonTool1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/ButtonTool2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/ButtonTool3.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/ButtonTool4.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/ButtonTool5.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialog/DialogTool1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialog/DialogTool2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tab/TabTool1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tab/TabTool2.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialog/Dialog.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchTool1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch/SwitchTool1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchTool2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch/SwitchTool2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/Tabs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ButtonTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/ButtonTool.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/DialogTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialog/DialogTool.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/SwitchTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch/SwitchTool.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/Tab.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/TabsTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/TabTool.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/openDialog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/openDialog.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dochome.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,14 +76,7 @@
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
       <workItem from="1602109819425" duration="89093000" />
-      <workItem from="1602298488046" duration="31341000" />
-    </task>
-    <task id="LOCAL-00010" summary="让topnav是响应式的">
-      <created>1602119372563</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1602119372563</updated>
+      <workItem from="1602298488046" duration="32021000" />
     </task>
     <task id="LOCAL-00011" summary="完善PC点aside不切换">
       <created>1602122710320</created>
@@ -442,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602345282962</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="封装Button、Dialog、Tab的源代码文件">
+      <created>1602354533222</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1602354533222</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +440,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="导航条宽度和切换" />
     <MESSAGE value="导航条切换动画" />
     <MESSAGE value="优化代码1" />
     <MESSAGE value="优化代码2" />
@@ -486,17 +464,18 @@
     <MESSAGE value="展示源代码并且高亮" />
     <MESSAGE value="封装Demo" />
     <MESSAGE value="点击源代码显示隐藏" />
-    <option name="LAST_COMMIT_MESSAGE" value="点击源代码显示隐藏" />
+    <MESSAGE value="封装Button、Dialog、Tab的源代码文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="封装Button、Dialog、Tab的源代码文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602348733719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602348733719" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602328271783">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602354816039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602328271783" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602354816039" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1602117230846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
