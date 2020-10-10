@@ -11,11 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/GetStared.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +73,7 @@
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
       <workItem from="1602109819425" duration="89093000" />
-      <workItem from="1602298488046" duration="1513000" />
+      <workItem from="1602298488046" duration="2018000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1602061329532</created>
@@ -402,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602281190241</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="创建介绍、安装、开始路由">
+      <created>1602300204212</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1602300204212</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +423,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="css最小影响原则" />
     <MESSAGE value="按钮多样化：theme和size属性" />
     <MESSAGE value="按钮多样化：level属性" />
     <MESSAGE value="按钮多样化：disabled属性" />
@@ -446,7 +447,8 @@
     <MESSAGE value="实现背景圆弧" />
     <MESSAGE value="更新菜单切换按钮样式" />
     <MESSAGE value="点击logo回到首页" />
-    <option name="LAST_COMMIT_MESSAGE" value="点击logo回到首页" />
+    <MESSAGE value="创建介绍、安装、开始路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建介绍、安装、开始路由" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127154797">

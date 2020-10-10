@@ -54,6 +54,9 @@
 </script>
 
 <style lang="scss">
+  .router-link-exact-active{
+    text-decoration: underline;
+  }
   .layout{
     display: flex;
     flex-direction: column;
