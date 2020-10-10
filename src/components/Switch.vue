@@ -3,22 +3,22 @@
     <h1>Switch 组件示例 </h1>
     <div class="demo">
       <h2>常规用法</h2>
-      <component is="SwitchTool1" />
+      <component is="SwitchTool1"/>
       <div class="demo-actions">
         <ButtonTool>查看代码</ButtonTool>
       </div>
       <div class="demo-code">
-        <pre v-text="SwitchTool1.__sourceCode"></pre>
+        <pre class="language-html" v-html="Prism.highlight(SwitchTool1.__sourceCode, Prism.languages.html, 'html')"></pre>
       </div>
     </div>
     <div class="demo">
       <h2>支持 disabled </h2>
-      <component is="SwitchTool2" />
+      <component is="SwitchTool2"/>
       <div class="demo-actions">
         <ButtonTool>查看代码</ButtonTool>
       </div>
       <div class="demo-code">
-        <pre v-text="SwitchTool2.__sourceCode"></pre>
+        <pre class="language-html" v-html="Prism.highlight(SwitchTool2.__sourceCode, Prism.languages.html, 'html')"></pre>
       </div>
     </div>
   </div>
@@ -28,10 +28,14 @@
   import ButtonTool from '../lib/ButtonTool.vue';
   import SwitchTool1 from './SwitchTool1.vue';
   import SwitchTool2 from './SwitchTool2.vue';
+  import 'prismjs';
+  import 'prismjs/themes/prism.css'
+
+  // const Prism = (window as any).prism;
   export default {
-    components: { ButtonTool},
-    setup(){
-      return{SwitchTool2,SwitchTool1}
+    components: {ButtonTool},
+    setup() {
+      return {SwitchTool2, SwitchTool1,Prism};
     }
   };
 </script>
