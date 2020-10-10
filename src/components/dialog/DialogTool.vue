@@ -44,7 +44,7 @@
         }
       };
       const ok = () => {
-        if (props.ok?.props.ok() !== false) {
+        if (props.ok&&props.ok() !== false) {
           close();
         }
       };

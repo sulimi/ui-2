@@ -12,8 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dochome.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialog/DialogTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialog/DialogTool.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +76,7 @@
       <updated>1602055722249</updated>
       <workItem from="1602055727447" duration="15286000" />
       <workItem from="1602109819425" duration="89093000" />
-      <workItem from="1602298488046" duration="32021000" />
-    </task>
-    <task id="LOCAL-00011" summary="完善PC点aside不切换">
-      <created>1602122710320</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1602122710320</updated>
+      <workItem from="1602298488046" duration="33339000" />
     </task>
     <task id="LOCAL-00012" summary="完成切换路由隐藏aside">
       <created>1602124229918</created>
@@ -421,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602354533222</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="重定向文档页路由">
+      <created>1602355192213</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1602355192214</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +440,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="导航条切换动画" />
     <MESSAGE value="优化代码1" />
     <MESSAGE value="优化代码2" />
     <MESSAGE value="使用computed计算属性切换内容" />
@@ -465,7 +464,8 @@
     <MESSAGE value="封装Demo" />
     <MESSAGE value="点击源代码显示隐藏" />
     <MESSAGE value="封装Button、Dialog、Tab的源代码文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装Button、Dialog、Tab的源代码文件" />
+    <MESSAGE value="重定向文档页路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="重定向文档页路由" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602348733719">
