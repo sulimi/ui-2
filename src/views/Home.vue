@@ -1,6 +1,5 @@
 <template>
   <div class="bg">
-<!--    <Topnav/>-->
     <div class="banner">
       <h1>Sim UI</h1>
       <h2>一个简单的UI框架</h2>
@@ -51,7 +50,8 @@
 
 <style lang="scss">
   .bg {
-    background: url("../assets/b.jpg") no-repeat right top;
+    /*background: url("b.jpg") no-repeat right top;*/
+    background: #623451;
     width: 100vw;
     height: 100%;
     background-size: 100% 100%;

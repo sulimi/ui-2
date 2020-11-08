@@ -87,6 +87,7 @@
       top: 50%;
       transform: translateY(-50%);
       display: none;
+      fill:#02BCB0
     }
 
     @media (max-width: 500px) {
