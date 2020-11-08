@@ -43,7 +43,6 @@
     /*background: pink;*/
     display: flex;
     padding: 16px;
-    position: relative;
     position: fixed;
     top: 0;
     left: 0;
@@ -67,7 +66,11 @@
       flex-wrap: nowrap;
 
       li {
-        margin: 0 1em
+        margin: 0 1em;
+        font-weight: bold;
+        a{
+          text-decoration: none;
+        }
       }
     }
 
