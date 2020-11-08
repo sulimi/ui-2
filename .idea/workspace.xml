@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
-    </list>
+    <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,14 +79,7 @@
       <workItem from="1602298488046" duration="42317000" />
       <workItem from="1602365805671" duration="2598000" />
       <workItem from="1604752187384" duration="1996000" />
-      <workItem from="1604793654902" duration="16524000" />
-    </task>
-    <task id="LOCAL-00022" summary="按钮多样化：theme和size属性">
-      <created>1602166945297</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1602166945297</updated>
+      <workItem from="1604793654902" duration="17197000" />
     </task>
     <task id="LOCAL-00023" summary="按钮多样化：level属性">
       <created>1602167428618</created>
@@ -428,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604836072695</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="上传GitHub背景图片失效，改用背景颜色">
+      <created>1604836869311</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1604836869311</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +443,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="实现背景圆弧" />
     <MESSAGE value="更新菜单切换按钮样式" />
     <MESSAGE value="点击logo回到首页" />
     <MESSAGE value="创建介绍、安装、开始路由" />
@@ -472,7 +467,8 @@
     <MESSAGE value="改首页" />
     <MESSAGE value="一些响应式" />
     <MESSAGE value="改名字" />
-    <option name="LAST_COMMIT_MESSAGE" value="改名字" />
+    <MESSAGE value="上传GitHub背景图片失效，改用背景颜色" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传GitHub背景图片失效，改用背景颜色" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602364989540">
