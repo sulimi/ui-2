@@ -12,8 +12,8 @@ export default {
     globals: {
       vue: 'Vue'
     },
-    name: 'Sumi',
-    file: 'dist/lib/sumi.js',
+    name: 'Sim',
+    file: 'dist/lib/sim.js',
     format: 'umd',
     plugins: [terser()]
   },

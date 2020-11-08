@@ -10,22 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/ButtonTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/ButtonTool.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/ButtonTool1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/ButtonTool1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/ButtonTool2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/ButtonTool2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/ButtonTool3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/ButtonTool3.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/switch/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/switch/SwitchTool.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch/SwitchTool.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/getstared.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/getstared.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
-    </list>
+    <list default="true" id="1d398601-cc7b-4385-a6d5-99001d133362" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,14 +79,7 @@
       <workItem from="1602298488046" duration="42317000" />
       <workItem from="1602365805671" duration="2598000" />
       <workItem from="1604752187384" duration="1996000" />
-      <workItem from="1604793654902" duration="14653000" />
-    </task>
-    <task id="LOCAL-00020" summary="创建button">
-      <created>1602157285270</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1602157285270</updated>
+      <workItem from="1604793654902" duration="15186000" />
     </task>
     <task id="LOCAL-00021" summary="css最小影响原则">
       <created>1602163012296</created>
@@ -439,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604826663499</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="一些响应式">
+      <created>1604835094378</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1604835094378</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +443,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="从iconfont.cn引入" />
     <MESSAGE value="使用本地的svg" />
     <MESSAGE value="实现背景圆弧" />
     <MESSAGE value="更新菜单切换按钮样式" />
@@ -483,7 +467,8 @@
     <MESSAGE value="GitHub改版了，master变成main" />
     <MESSAGE value="创建lib/index.ts" />
     <MESSAGE value="改首页" />
-    <option name="LAST_COMMIT_MESSAGE" value="改首页" />
+    <MESSAGE value="一些响应式" />
+    <option name="LAST_COMMIT_MESSAGE" value="一些响应式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602364989540">

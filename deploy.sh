@@ -5,7 +5,7 @@ git init &&
 git add . &&
 git commit -m "update" &&
 git branch -M main &&
-git remote add origin git@github.com:sulimi/sumi-ui.git &&
+git remote add origin git@github.com:sulimi/sim-ui-2.git &&
 git push -f -u origin main &&
 cd -
-echo https://sulimi.github.io/sumi-ui/index.html
+echo https://github.com/sulimi/sim-ui-2/index.html
