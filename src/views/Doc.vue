@@ -1,5 +1,5 @@
 <template>
-  <Topnav/>
+  <!--  <Topnav/>-->
   <div class="layout">
     <Topnav class="nav" :toggleMenuVisible="true"/>
     <div class="content">
@@ -55,14 +55,17 @@
 
 <style lang="scss">
 
-  .layout{
+  .layout {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    .nav{
-      flex-shrink: 0;/*不缩小*/
+
+    .nav {
+      flex-shrink: 0; /*不缩小*/
+      background: #623451;
     }
-    .content{
+
+    .content {
       flex-grow: 1;
       padding-top: 60px;
       padding-left: 156px;
@@ -70,7 +73,8 @@
       @media (max-width: 500px) {
         padding-left: 0;
       }
-      main{
+
+      main {
         flex-grow: 1;
         padding: 16px;
         /*background: lightgreen;*/
@@ -79,7 +83,7 @@
 
       aside {
         flex-shrink: 0;
-        background: lightblue;
+        background: #623451;
         width: 150px;
         padding: 70px 0 16px;
         position: fixed;
@@ -87,6 +91,7 @@
         left: 0;
         height: 100%;
         z-index: 1;
+
         h2 {
           margin-bottom: 4px;
           padding: 4px 16px;
@@ -94,15 +99,20 @@
 
         ol {
           li {
+            padding: 5px 0;
 
-            a{
+
+            a {
               padding: 4px 16px;
               display: block;
               text-decoration: none;
             }
-            .router-link-exact-active{
-              background: white;
 
+            .router-link-exact-active {
+              font-weight: bold;
+              color: #fff;
+              font-size: 16px;
+              transition: all 200ms;
             }
           }
         }

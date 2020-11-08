@@ -6,13 +6,17 @@
       </svg>
     </router-link>
     <ul class="menu">
- <li>
-   <router-link to="/doc">文档</router-link>
- </li>
+      <li>
+        <a href="https://gitee.com/sulimi/sim-ui-2">码云</a>
+
+      </li>
+      <li>
+        <a href="https://github.com/sulimi/sim-ui-2">GitHub</a>
+      </li>
     </ul>
     <svg class="toggleAside"
-          v-if="toggleMenuVisible"
-          @click="toggleMenu">
+         v-if="toggleMenuVisible"
+         @click="toggleMenu">
       <use xlink:href="#icon-caidan"></use>
     </svg>
   </div>
@@ -23,7 +27,7 @@
 
   export default {
     props: {
-      toggleMenuVisible:{
+      toggleMenuVisible: {
         type: Boolean,
         default: false
       }
@@ -40,9 +44,8 @@
 
 <style lang="scss">
   .topnav {
-    /*background: pink;*/
     display: flex;
-    padding: 16px;
+    padding: 12px;
     position: fixed;
     top: 0;
     left: 0;
@@ -54,7 +57,8 @@
     .logo {
       max-width: 6em;
       margin-right: auto;
-      svg{
+
+      svg {
         width: 32px;
         height: 32px;
       }
@@ -68,7 +72,8 @@
       li {
         margin: 0 1em;
         font-weight: bold;
-        a{
+
+        a {
           text-decoration: none;
         }
       }

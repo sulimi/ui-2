@@ -15,11 +15,11 @@
       };
       return {toggle};
     },
-    methods:{
-      x(){
-        this.$emit()
-      }
-    }
+    // methods:{
+    //   x(){
+    //     this.$emit()
+    //   }
+    // }
   };
 </script>
 
@@ -34,6 +34,7 @@
     background: grey;
     border-radius: $h/2;
     position: relative;
+    cursor: pointer;
     span {
       position: absolute;
       top: 2px;
@@ -50,5 +51,6 @@
     &.sumi-checked > span {
       left: calc(100% - #{$h2} - 2px);
     }
+
   }
 </style>

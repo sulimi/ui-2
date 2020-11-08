@@ -1,6 +1,6 @@
 <template>
   <div class="bg">
-    <Topnav/>
+<!--    <Topnav/>-->
     <div class="banner">
       <h1>Sim UI</h1>
       <h2>一个简单的UI框架</h2>
@@ -52,32 +52,69 @@
 <style lang="scss">
   .bg {
     background: url("../assets/b.jpg") no-repeat right top;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background-size: 100% 100%;
+
+    .banner {
+      padding: 100px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      @media (max-height: 570px) {
+        padding: 30px 0;
+      }
+      .actions {
+        padding: 8px 0;
+        display: flex;justify-content: center;align-items: center;flex-wrap: wrap;
+        @media (max-height: 570px) {
+          flex-direction: column;
+
+        }
+        a {
+          margin: 8px;
+          background: #02BCB0;
+          color: #fff;
+          display: inline-block;
+          $h: 28px;
+          line-height: $h;
+          border-radius: $h/2;
+          padding: 8px 24px;
+          border-radius: 4px;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
+      }
+    }
   }
 
 
   .features {
     margin: 64px auto;
-    width: 400px;
+    width: 100vw;
 
     svg {
       width: 64px;
       height: 64px;
     }
+    /*@media (max-height: 570px) {*/
+    /*  !*width: 300px;*!*/
 
-    @media (min-width: 800px) {
-      width: 800px;
-    }
-    @media (min-width: 1200px) {
-      width: 1200px;
-    }
+    /*}*/
+    /*@media (min-width: 800px) {*/
+    /*  width: 800px;*/
+    /*}*/
+    /*@media (min-width: 1200px) {*/
+    /*  width: 1200px;*/
+    /*}*/
 
     ul {
       display: flex;
-      flex-wrap: wrap;
-
+      flex-wrap: wrap;justify-content: center;align-items: center;
       li {
         width: 400px;
         margin: 16px 0;
@@ -93,43 +130,22 @@
           grid-area: icon;
           width: 64px;
           height: 64px;
+          @media (max-height: 570px) {
+            width: 54px;
+            height: 54px;
+          }
         }
 
         h3 {
           grid-area: title;
           font-size: 28px;
+          @media (max-height: 570px) {
+            font-size: 20px;
+          }
         }
 
         p {
           grid-area: text
-        }
-      }
-    }
-  }
-
-  .banner {
-    padding: 100px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /*background: lightgreen;*/
-    .actions {
-      padding: 8px 0;
-
-      a {
-        margin: 0 8px;
-        background: #02BCB0;
-        color: #fff;
-        display: inline-block;
-        $h: 28px;
-        line-height: $h;
-        border-radius: $h/2;
-        padding: 8px 24px;
-        border-radius: 4px;
-
-        &:hover {
-          text-decoration: none;
         }
       }
     }

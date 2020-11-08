@@ -4,19 +4,19 @@
 <template>
   <div>
     <div>
-      <ButtonTool size="big">大大大</ButtonTool>
-      <ButtonTool>普普通</ButtonTool>
-      <ButtonTool size="small">小小小</ButtonTool>
+      <ButtonTool size="big">大</ButtonTool>
+      <ButtonTool>默认</ButtonTool>
+      <ButtonTool size="small">小</ButtonTool>
     </div>
     <div>
-      <ButtonTool theme="link" size="big">大大大</ButtonTool>
-      <ButtonTool theme="link">普普通</ButtonTool>
-      <ButtonTool size="small" theme="link">小小小</ButtonTool>
+      <ButtonTool theme="link" size="big">大</ButtonTool>
+      <ButtonTool theme="link">默认</ButtonTool>
+      <ButtonTool size="small" theme="link">小</ButtonTool>
     </div>
     <div>
-      <ButtonTool size="big" theme="text">大大大</ButtonTool>
-      <ButtonTool theme="text">普普通</ButtonTool>
-      <ButtonTool size="small" theme="text">小小小</ButtonTool>
+      <ButtonTool size="big" theme="text">大</ButtonTool>
+      <ButtonTool theme="text">默认</ButtonTool>
+      <ButtonTool size="small" theme="text">小</ButtonTool>
     </div>
   </div>
 </template>

@@ -15,7 +15,6 @@
   export default {
     components: {Demo},
     setup() {
-
       return {SwitchTool2, SwitchTool1};
     }
   };

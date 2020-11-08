@@ -97,7 +97,7 @@
 
       &:hover, &:focus {
         background: darken(white, 5%);
-        background: red;
+        /*background: red;*/
       }
     }
 

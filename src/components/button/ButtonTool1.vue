@@ -3,9 +3,9 @@
 </demo>
 <template>
   <div>
-    <ButtonTool>你好</ButtonTool>
-    <ButtonTool theme="link">你好</ButtonTool>
-    <ButtonTool theme="text">你好</ButtonTool>
+    <ButtonTool>普通按钮</ButtonTool>
+    <ButtonTool theme="link">标签按钮</ButtonTool>
+    <ButtonTool theme="text">文本按钮</ButtonTool>
   </div>
 </template>
 <script>
